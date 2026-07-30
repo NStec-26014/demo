@@ -4,10 +4,9 @@ import org.springframework.web.bind.annotation.GetMapping;
 
 public class CalcController {
 
-    // わざとインデントを崩す例
-    @GetMapping("/calc")
-public String showForm() {
-            return "calc"; 
-    }
-
+  // わざとインデントを崩す例
+  @GetMapping("/calc")
+  public String showForm() {
+    return "calc";
+  }
 }
