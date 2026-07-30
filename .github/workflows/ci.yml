@@ -27,7 +27,7 @@ jobs:
         chmod +x gradlew
         ./gradlew build
 
-        - name: プロジェクトのビルド
+    - name: プロジェクトのビルド
       # テストを除外してビルドのみを実行
       run: |
         chmod +x gradlew
